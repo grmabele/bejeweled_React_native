@@ -1,0 +1,7 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" 
+    directory: "/" 
+    schedule:
+      interval: "daily" # Fréquence des vérifications des mises à jour
+    open-pull-requests-limit: 10 # Limite du nombre de pull requests ouvertes
